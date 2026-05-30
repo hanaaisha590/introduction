@@ -4,6 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+            padding: 20px;
+
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+
+        nav a {
+            display: inline;
+            text-decoration: none;
+            color: black;
+            padding: 8px;
+            margin-left: 15px;
+
+        }
+
+        nav :hover {
+            background: black;
+            color: burlywood;
+             transform:0.5s ;
+            }
+                
+        .categories{
+            display: flex;
+            gap: 15px;
+
+        }
+
+        .category{
+            border: 1px solid black;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .category :hover{
+            background-color: black;
+            color: burlywood;
+
+        }
+
+
+
+        .movie-cards{
+            border: 2px solid black;
+            text-align: center;
+            gap: 15px;
+        }
+
+    .movie-cards :hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+
+    }
+
+        .movies{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-top: 10px;
+
+        }
+
+        
+
+    </style>
 </head>
 <body>
     <header>
@@ -35,6 +106,27 @@
     <section class="movies">
 
         <div class="movie-cards"></div>
+        <h3>The Metrix</h3>
+
+
+        <div class="movie-cards"></div>
+        <h3>Bahubali</h3>
+
+
+
+        <div class="movie-cards"></div>
+        <h3>Inception</h3>
+
+
+
+        <div class="movie-cards"></div>
+        <h3>Lokah</h3>
+
+
+
+        <div class="movie-cards"></div>
+        <h3>Oppenheimer</h3>
+
 
 
 
